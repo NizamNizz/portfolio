@@ -1,0 +1,321 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background: #333;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    animation:  clr 5s 0s linear infinite alternate ;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header #theme-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Home section styles */
+#home {
+    text-align: center;
+    padding: 50px 20px;
+    animation:  fullclr 6s 0s linear infinite alternate ;
+}
+
+#home .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+#home .profile-image:hover {
+    transform: scale(1.1);
+}
+
+#home .social-icons a {
+    color: #333;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#home .social-icons a :hover {
+    color:green;
+    transform: scale(1.1);
+     
+}
+
+#home .resume-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#home .resume-button:hover {
+    background: #555;
+}
+
+/* About section styles */
+#about {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    animation:  halfclr 6s 0s linear infinite alternate ;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out ;
+}
+
+#about img:hover{
+    
+    height: 170px;
+    width: 170px;
+}
+
+#about .read-more-button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#about .read-more-button:hover {
+    background: #555;
+}
+
+/* Skills section styles */
+#skills {
+    padding: 50px 20px;
+    text-align: center;
+    animation:  fullclr 6s 0s linear infinite alternate ;
+}
+
+#skills .skill {
+    margin-bottom: 20px;
+}
+
+#skills .progress-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ;
+}
+
+#skills .progress-bar:hover {
+    transform: scale(0.99);
+    background: green;
+
+}
+
+#skills .progress {
+    height: 20px;
+    background: #333;
+}
+
+/* Certifications section styles */
+.certifications {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    animation:  halfclr 6s 0s linear infinite alternate ;
+}
+
+.certifications .certification-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certifications .certification-card:hover {
+    background-color:lavenderblush;
+    transform: scale(1.01);
+
+}
+
+.certifications button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.certifications button:hover {
+    background: #555;
+}
+
+/* Projects section styles */
+#projects {
+    padding: 50px 20px;
+    text-align: center;
+    animation:  fullclr 6s 0s linear infinite alternate ;
+}
+
+#projects img {
+   height: 180px;
+   width: 250px;
+    border-radius: 2%;
+    margin-bottom: 20px;
+
+}
+
+#projects .project-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project-card:hover {
+    background-color:lavenderblush;
+    transform: scale(1.01);
+}
+
+/* Contact section styles */
+#contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+    animation:  halfclr 6s 0s linear infinite alternate ;
+}
+
+#contact form input:hover {
+    background-color:lavenderblush;
+     
+}
+
+#contact form textarea:hover {
+    background-color:lavenderblush;
+     
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact form button:hover {
+    background: #555;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .contact-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+footer .contact-buttons button:hover {
+    background: #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contact form {
+        gap: 5px;
+    }
+}
+
+hr{
+    margin: 0px;
+}
+
+@keyframes  clr {
+    100%{
+        
+        color: green;
+    }
+    
+}
+
+@keyframes halfclr {
+    100%{
+        background-color: lightcyan;
+    }
+}
+
+@keyframes fullclr {
+    100%{
+        background-color: lightgray;
+    }
+}

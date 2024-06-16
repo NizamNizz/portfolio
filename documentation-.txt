@@ -1,0 +1,32 @@
+FILE STRUCTURE
+
+/portfolio-website
+|-- index.html
+|-- index.css
+|-- images/
+|   |-- me.jpg
+|   |-- am.jpg
+|   |-- ostello.jpeg
+|   |-- pvd.jpeg
+|   |-- ppw.jpeg
+|   |-- recipe.jpeg
+|   |-- e-commerce.jpeg
+|   |-- eimgedit.jpeg
+
+there are:header,home,about,skill,service,project,contacts,footer
+
+
+
+
+
+HTML Structure: The index.html file includes all the required sections as outlined. Semantic tags like <header>, <section>, and <footer> are used for better accessibility.
+Header Section: Contains a logo, navigation links, and a day/night mode toggle button.
+Home Section: Features a heading, intro text, profile image with hover effect, social icons, and a resume download button.
+About Section: Includes a heading, about content, profile image, and a "Read More" button.
+Skills Section: Displays skills with linear progress bars.
+Certifications Section: Lists certifications with buttons to view each certificate.
+Project Section: Contains project cards that showcase different projects.
+Contact Section: Provides a contact form with name, email, and message inputs.
+Footer: Features call and email buttons with hover effects.
+CSS Styling: Styles the header, footer, and sections. Uses media queries for responsiveness and applies animations and transitions for interactive elements.
+
